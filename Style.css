@@ -27,13 +27,12 @@ nav a:hover{
     background-image:url(/images/beach.jpg);
     margin-top:0;
     height:400px;
-    width:1280px;
     display:flex;
     align-items:center;
     justify-content:center;;
     background-repeat:no-repeat;
     background-size: 100% 100%;
-    margin-bottom:65px;
+    margin-bottom:50px;
 }
 
 .text-content{
@@ -49,6 +48,7 @@ h2{
     color:#fff;
     font-weight:bold;
     margin:0;
+    
 }
 
 .text{
@@ -68,13 +68,15 @@ button{
 .heading{
     color:#023047;
     text-align:center;
+    padding:5px;
+    margin:5px;
 }
 
 .flexcontainer{
     display:flex;
     justify-content:center;
     margin-bottom:40px;
-    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .flexcontainer > div{
@@ -84,6 +86,7 @@ button{
     border-radius:10px;
     box-shadow:0 0 15px rgba(0,0,0,0.2); 
     align-items:center;
+    margin-top:10px;
 }
 
 .image1{
@@ -102,5 +105,31 @@ h3, p{
     margin:0;
 }
 
+.flexcontainer2{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.flexcontainer2 > div{
+    padding:20px 20px;
+    width:250px;
+    border-radius:10px;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+    flex-direction:column;
+    margin-bottom:50px;
+}
+
+.image2{
+    width:250px;
+    height:400px;
+}
+
+.container{
+    padding:60px;
+    text-align:center;
+    margin:10px;
+    font-size:18px;
+}
 
 
